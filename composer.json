@@ -2,8 +2,9 @@
     "name": "russel/file-upload",
     "description": "gestion de l'upload et de la suppression de fichier",
     "type": "library",
-    "version": "1.0",
+    "version": "1.0.0",
     "require": {
+        "php":"8.2",
         "illuminate/support": "*",
         "illuminate/filesystem": "*"
     },
