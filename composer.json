@@ -1,0 +1,33 @@
+{
+    "name": "russel/file-upload",
+    "description": "gestion de l'upload et de la suppression de fichier",
+    "type": "library",
+    "version": "1.0",
+    "require": {
+        "illuminate/support": "*",
+        "illuminate/filesystem": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Russel\\FileUpload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "russel",
+            "email": "russeldongmo05@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Russel\\FileUpload\\FileUploadServiceProvider"
+            ],
+            "aliases": {
+                "FileUpload": "Russel\\FileUpload\\Facades\\FileUpload"
+            }
+        }
+    }
+}
